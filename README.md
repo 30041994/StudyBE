@@ -36,3 +36,9 @@ Chạy câu lệnh: [npm i]
 # Chạy thử trên local
 
 Chạy câu lệnh: [npm run start]
+
+#Thông tin kết nối DataBase:
+host: "192.168.120.151",
+user: "root",
+password: "Ttm@2010",
+database: "test2"
