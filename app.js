@@ -23,6 +23,7 @@ const con = mysql.createConnection({
   password: "Ttm@2010",
   database: "test2"
 });
+
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!!!")
@@ -48,7 +49,8 @@ app.post('/api/login', (req, res) => {
         res.status(200).json({ message: 'Login successful' });
       } else {
         // Sai thông tin đăng nhập
-        res.status(401).json({ error: 'Invalid email or password' });
+        res.status(401).json({ message: 'Invalid email or password' });
+        
       }
     }
   });
