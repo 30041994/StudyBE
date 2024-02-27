@@ -24,7 +24,7 @@ https://github.com/30041994/StudyBE
 
 Tạo 1 thư mục chứa code
 Chuột phải -> Click vào Open Git Bash Here
-Chạy command: [git clone https://github.com/30041994/StudyBE/tree/master]
+Chạy command: [git clone https://github.com/30041994/StudyBE.git]
 
 # Install module
 
